@@ -78,7 +78,7 @@ jobs:
         with:
           file: .github/workflows/update-github-info.md
 
-      - name: Check agent instructions include no auto-compile rule
+      - name: Check that the agent instructions include the no auto-compile rule
         id: check-agent-no-compile
         continue-on-error: true
         uses: skills/action-keyphrase-checker@v2
