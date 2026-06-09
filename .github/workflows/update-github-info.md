@@ -7,7 +7,7 @@ on:
     - cron: '17 9 * * *'
 safe-outputs:
   create-pull-request:
-    title: "Create Mona website updater workflow"
+    title-prefix: "Create Mona website updater workflow"
     draft: true
     fallback-as-issue: false
 tools:
