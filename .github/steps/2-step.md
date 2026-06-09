@@ -37,7 +37,7 @@ Continue working in VS Code. If you closed your browser editor, reopen your deve
 
    <img width="30%" alt="agentic workflows Agent" src="https://github.com/nandana-ps/skills-agentic-workflows-that-read-the-room/blob/main/.github/images/agentic-workflows-agent.png?raw=true" />
 
-4. Before prompting the agent, add a rule to `.github/agents/agentic-workflows.md` so the agent knows not to compile workflows on its own. Open the file and add the following line under Important Notes:
+4. Before prompting the agent, add a rule to `.github/agents/agentic-workflows.md` so the agent knows not to compile workflows on its own. This is the no auto-compile rule. Open the file and add the following line under Important Notes:
 
    ```markdown
    When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file.
